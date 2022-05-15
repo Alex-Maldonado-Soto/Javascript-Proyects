@@ -45,4 +45,11 @@ function renderTasks(){
   const tasksContainer = document.querySelector("#tasks");
   tasksContainer.innerHTML = html.join (``);
 
+  const startButtons = document.querySelectorAll(.`task .start-button`);
+
+  startButtons.forEach(button => {
+    button.addEventListener()
+  });
 }
+
+
